@@ -23,9 +23,6 @@ class BootService : Service() {
         startForeground(1, createNotification())
 
         startMainActivity()
-//        Handler(Looper.getMainLooper()).postDelayed({
-//            startMainActivity()
-//        }, 5000) // 5 seconds delay
     }
 
     private fun startMainActivity() {
